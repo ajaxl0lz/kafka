@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-shadow: 4px 4px 2px rgba(0,0,0,0.44);
+}
+
+body {
+    font-family: "Rubik Mono One", monospace;
+    background-color: #D8C0D4;
+    width: 100%;
+}
+
+header {
+    background-color: #B99DB5;
+    height: 62px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    justify-content: center;
+    position: relative;
+    
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    gap: 20px; 
+    
+}
+.button {
+    background-color: #7E546D;
+    color: white;
+    padding: 10px 15px; 
+    font-size: 10px;
+    width: 100px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    text-decoration: none;
+    text-shadow: none;
+}
+.logo{
+    display: flex;
+    float: left;
+    position: absolute;
+    left: 10px;
+    }
+h1{
+     text-align: center;
+     width: 375px;  
+    color: white;
+    font-size: 48px;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.blade{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.blade-bg{
+    background-color: #47636B;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    padding: 20px 50px 20px 50px ;
+    border-radius: 50px;
+}
+.blade-minis{
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+}
+.blade-text{
+    color: white;
+}
+.blade-text h2{
+    font-size: 48px;
+}
+.blade-desc{
+    width: 640px;
+    font-size: 24px;
+    margin-top: 40px;
+}
+.silverwolf{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+    
+}
+.silverwolf-bg{
+    background-color: #665E96;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    padding: 20px 50px 20px 50px ;
+    border-radius: 50px;
+    flex-direction: row-reverse;
+}
+.silverwolf-minis{
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+}
+.silverwolf-text{
+    color: white;
+}
+.silverwolf-text h2{
+    font-size: 48px;
+    text-align: right;
+}
+.silverwolf-desc{
+    width: 640px;
+    font-size: 24px;
+    margin-top: 30px;
+    text-align: right;
+}
+
+.firefly{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+}
+.firefly-bg{
+    background-color: #838271;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    padding: 20px 50px 20px 50px ;
+    border-radius: 50px;
+}
+.firefly-minis{
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+}
+.firefly-text{
+    color: white;
+}
+.firefly-text h2{
+    font-size: 48px;
+}
+.firefly-desc{
+    width: 640px;
+    font-size: 24px;
+    margin-top: 30px;
+}

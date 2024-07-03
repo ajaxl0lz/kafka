@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-shadow: 4px 4px 2px rgba(0,0,0,0.44);
+}
+
+
+body {
+    font-family: "Rubik Mono One", monospace;
+}
+
+
+header {
+    background-color: #B99DB5;
+    height: 62px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    justify-content: center;
+    position: relative;
+    
+}
+
+
+section {
+    background-color: #DBD4DA;
+    height: 1024px;
+    max-width: 100%; 
+    margin: 0 auto; 
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    gap: 20px; 
+    
+}
+.button {
+    background-color: #7E546D;
+    color: white;
+    padding: 10px 15px; 
+    font-size: 10px;
+    width: 100px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    text-decoration: none;
+    text-shadow: none;
+}
+
+.logo{
+display: flex;
+float: left;
+position: absolute;
+left: 10px;
+}
+#main_btn{
+    background-color: #674057;
+}
+.banner{
+    
+    height: 340px;
+    align-items: center; display: flex;
+    position: absolute;
+    margin-top: 109px;
+    height: auto; 
+    
+}
+.thebanner{
+    display: flex;
+    align-items: center;  justify-content: center;
+margin-top: -25px;
+    
+}
+.overlay{
+    z-index: 10;
+    margin-left: 10px;
+    height: 100%;
+    margin-top: 39px;
+}
+.about{
+    z-index: 10;
+    color: white;
+    text-shadow: 4px 4px 2px rgba(0,0,0,0.44);
+    width: 500px ;
+    margin-top: 70px ;
+    align-items: flex-start;
+    display: block;
+}
+.title{
+   font-size: 96px;
+}
+.faq{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    margin-left : 150px;
+    top:500px;
+    width: 240px;
+    display: flex;
+    align-items: center;  justify-content: center;
+   z-index: 10;
+}
+.recentsearches{
+    display: block;text-align:center;
+    font-size: 32px;
+    
+   
+}
+.search1, .search2, .search3, .search4{
+    text-decoration: none;
+    color: white;
+    background-color: #7E546D;
+    padding: 20px 25px; 
+    font-size: 14px;
+    width: 310px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    
+    text-decoration: none;
+    text-shadow: none;
+    margin-top: 26px;
+}
+.magnifying_glass{
+display: flex;
+float: left;
+position: absolute;
+left: -25px;
+margin-bottom: 15px;
+}
+.search1{background-color: #B99DB5;}
+.search2{background-color:     #AF8CAA;}
+.search3{background-color:  #A07599;}
+.search4{background-color: #7C4D76;}
+.Stellaron_hunters h2{
+    font-size: 32px;
+    display: block;text-align:center;
+}
+.Stellaron_hunters {
+    width: 100%;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    position: absolute;
+    flex-direction: column;
+    top: 500px;
+    
+}
+.kafkash, .firefly, .blade, .silverwolf{
+    float: left;
+    margin-left: 5px;
+    margin-top: 5px;
+    box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.4);
+-webkit-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.4);
+-moz-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.4);
+}
+.kafkash{
+    border-radius: 50px 0 0 0;
+}
+.firefly{
+    border-radius: 0 50px 0 0;
+}
+.blade{
+    border-radius: 0 0 0 50px;
+}
+.silverwolf{
+    border-radius: 0 0 50px 0;
+}
+.Stellaron_hunters a{
+    text-decoration: none;
+}
+.mini{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 130px;
+    top: 500px;
+}
+.mini1, .mini2{
+    width: 220px;
+    height: 220px;
+    border-radius: 50PX;
+    margin-top: 10px;
+    box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.4);
+-webkit-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.4);
+-moz-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.4);
+
+}

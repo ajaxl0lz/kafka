@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-shadow: 4px 4px 2px rgba(0,0,0,0.44);
+}
+body{
+    font-family: "Rubik Mono One", monospace;
+    height: 900px;
+}
+header {
+    background-color: #271335;
+    height: 62px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    justify-content: center;
+    position: relative;
+}
+
+.button {
+    background-color: #120F13;
+    color: white;
+    padding: 10px 15px; 
+    font-size: 10px;
+    width: 100px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    text-decoration: none;
+    text-shadow: none;
+
+}
+.button2{
+    background-color: #19101C;
+}
+
+.logo{
+    display: flex;
+    float: left;
+    position: absolute;
+    left: 10px;
+    
+    } 
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    gap: 20px; 
+    
+}
+
+
+
+
+
+
+
+h1 {
+    font-family: Rubik Mono One, sans-serif;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 55px;
+   
+    margin-left: 30px;
+
+}
+
+main {
+    background-color: #392D68;
+    width: 100%;
+    height: 95%;
+}
+
+.p1 {
+    color: #FFFFFF;
+    font-family: Rubik Mono One, sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: left;
+    flex-wrap: wrap;
+    width: 450px;
+    margin-right: 10px;
+    margin-top: 20px;
+    margin-left: 25px;
+}
+
+.img2 {
+    display: block;
+    margin-left: auto;
+    margin-top: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+    height:99% ;
+}
+.content{
+    position: relative;
+}
+.HEADER {
+    display: flex;
+}
+
+.img3 {
+ position: absolute;
+ left: 415px;
+ top: 40px;
+    width: 85px;
+    height: 86px;
+}
+.img1 {
+    margin-left: 15px;
+    margin-top: 3px;
+
+}
+.ix {
+    position: relative;
+    padding-top: 60px;
+}

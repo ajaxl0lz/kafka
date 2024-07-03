@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.44);
+}
+
+
+body {
+    font-family: "Rubik Mono One", monospace;
+}
+
+
+header {
+    background-color: #292E48;
+    height: 62px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+     bor
+}
+
+
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+
+}
+
+.button {
+    background-color: #383C5D;
+    color: white;
+    padding: 10px 15px;
+    font-size: 10px;
+    width: 100px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    text-decoration: none;
+    text-shadow: none;
+}
+
+.logo {
+    display: flex;
+    float: left;
+    position: absolute;
+    left: 10px;
+}
+
+#main_btn {
+    background-color: #1D2441;
+}
+
+.headerpos {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+h2 {
+    color: #FFFFFF;
+    font-family: Rubik Mono One, sans-serif;
+    justify-content: center;
+}
+
+p {
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 16px;
+    font-family: Rubik Mono One, sans-serif;
+}
+
+body {
+    background-color:
+        #2E3164;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.idk {
+
+    display: flex;
+}
+.idk2 {
+    display: flex;
+}
+img {
+    width: 100%;
+
+}
+.header {
+    border-radius: 50px;
+    background-color: #1D2441;
+    width: 600px;
+    height: 40px;
+    margin-top: 50px;
+}

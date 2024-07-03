@@ -1,0 +1,329 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-shadow: 4px 4px 2px rgba(0,0,0,0.44);
+}
+
+body {
+    font-family: "Rubik Mono One", monospace;
+    background-color: #DBD4DA;
+    height: 1024px;
+    max-width: 100%; 
+    margin: 0 auto; 
+}
+
+header {
+    background-color: #B99DB5;
+    height: 62px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    justify-content: center;
+    position: relative;
+    
+}
+
+body {
+    background-color: #DBD4DA;
+    height: 1024px;
+    max-width: 100%; 
+    margin: 0 auto; 
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    gap: 20px; 
+    
+}
+.button {
+    background-color: #7E546D;
+    color: white;
+    padding: 10px 15px; 
+    font-size: 10px;
+    width: 100px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    text-decoration: none;
+    text-shadow: none;
+}
+
+.logo{
+display: flex;
+float: left;
+position: absolute;
+left: 10px;
+
+}
+.teams h2{
+    color: white;
+    background-color: #B99DB5;
+    
+    padding: 10px 50px 10px 50px;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 16px;
+    margin-top:     30px;
+}
+.align{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    
+}
+.ascension h2{
+    color: white;
+    background-color: #AF8CAA;
+    
+    padding: 10px 50px 10px 50px;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 16px;
+    margin-top:     30px;
+}
+
+.f2p{
+    background-color: #795674;
+    display: flex;
+    padding: 20px 20px 20px 20px;
+    width: 615px;
+    border-radius: 50px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    color: white;
+    margin-left: 20px;
+}
+ 
+.kafka, .danheng, .asta ,.natasha{
+    text-align: center;
+}
+.dot{
+    background-color: #795674;
+    display: flex;
+    padding: 20px 20px 20px 20px;
+    width: 615px;
+    border-radius: 50px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    color: white;
+    margin-left: 20px;
+}
+ .blackswan, .ruanmei ,.huohuo{
+    text-align: center;
+}
+.team2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.titles, .titleforshock{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 20px;
+    font-size: 24px;
+}
+.sampo, .pela ,.trailblazer{
+    text-align: center;
+}
+.shock{
+    background-color: #795674;
+    display: flex;
+    padding: 20px 20px 20px 20px;
+    width: 615px;
+    border-radius: 50px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 20px;
+    color: white;
+    margin-left: 30%;
+
+}
+
+.ascension h1{
+    text-align: center;
+    color: white;
+    font-size: 24px;
+    margin-top: 15px;
+}
+.bckr{
+    background-color: #A4849F;
+    padding: 10px 40px 10px 40px; border-radius: 50px;
+
+}
+.materials{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    
+    font-size: 24px;
+    color: white;
+   
+    gap: 50px;
+    
+}
+
+.materials h1{
+    text-align: center;
+}
+.obtain{
+    position: absolute;
+    top: 120%;
+    left: 40%;
+    
+}
+.text{
+    display: flex;
+    gap: 10px;
+
+}
+
+.allmaterials{
+    height: 350px;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    border-radius: 50px;
+    color: white;
+    margin-top: 20px;
+}
+.tutorial h3{
+    font-size: 24px;
+    margin-top: 20px;
+    text-align: center;
+}
+.p1, .p2, .p3, .p4{
+    width: 285px;
+    font-size: 16px;
+}
+.tutorial-cards{
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    margin-top: 20px;
+}
+
+.traces h2{
+    color: white;
+    background-color: #A07599;
+    
+    padding: 20px 55px 20px 55px;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 16px;
+    margin-top:     30px;
+}
+
+.alltraces{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.torture{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    gap: 30px;
+
+    margin-top: 50px ;
+}
+.torture p{
+    width: 285px;
+    background-color: #BCA3B8;
+    padding: 20px 20px 20px 20px;
+    border-radius: 50px;
+    text-align: center;
+}
+.plunder, .thorns{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    gap: 30px;
+   
+    margin-top: 50px ;
+}
+.plunder p, .thorns p{
+    width: 355px;
+    background-color: #BCA3B8;
+    padding: 20px 20px 20px 20px;
+    border-radius: 50px;
+    text-align: center;
+}
+.tier{
+    padding: 10px 50px 10px 50px;
+    background-color: #CBB8C8;
+    border-radius: 50px;
+    color: white;
+    font-size: 16px;
+    margin-top: 20px;
+}
+.bossh2{
+    color: white;
+    background-color: #7C4D76;
+    
+    padding: 20px 60px 20px 60px;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 16px;
+    margin-top:     30px;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    background-color:#CBB8C8 ;
+    width: 320px;
+    text-align: left;
+    border-radius: 50px;
+    padding: 40px 25px 40px 25px;
+    
+}
+
+.info span{
+    width: 150px;
+    color: #47333F;
+    text-shadow: 4px 4px 3px rgba(0,0,0,0.24);
+}
+.maininfo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+.maininfo-kafka{
+    width: 315px;
+    background-color:#CBB8C8 ;
+    border-radius: 50px;
+    color: #47333F;
+    height: 290px;
+}
+.maininfo-kafka p{
+    text-align: center;
+    padding: 20px 20px 20px 20px;
+    text-shadow: 4px 4px 3px rgba(0,0,0,0.24);
+}
+.kafkaboss{
+    background-color:#CBB8C8 ;
+    border-radius: 50px;
+    width: 320PX;
+}
+.kafkaboss img{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
