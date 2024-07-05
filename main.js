@@ -3,7 +3,7 @@ let envelope ="gojo"
 document.addEventListener("keypress", (e) => {
     str += e.key;
     if(str ===envelope){
-        window.location="./secret.html"
+        window.location="https://ajaxl0lz.github.io/kafka/secret.html"
     }
 })
 
